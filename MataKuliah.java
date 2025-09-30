@@ -16,7 +16,7 @@ public class MataKuliah {
     public void tampil() {
         System.out.print("Mata Kuliah: " + kode + " - " + nama);
         if (dosen_pengampu != null) {
-            System.out.print(" | Pengampu: " + dosen_pengampu.getNama());
+            System.out.print(" | Dosen Pengampu: " + dosen_pengampu.getNama());
         }
         System.out.println();
     }
